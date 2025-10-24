@@ -99,7 +99,7 @@ app.delete("/chats/:id", async (req, res) => {
 
 
 //testing route
-app.get('/', (req, res) => {
+app.get('/chats', (req, res) => {
     res.send("root is working");
 });
 
